@@ -1,0 +1,26 @@
+spring:
+  #profiles:
+    #active: prod
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://115.159.161.91:3306/dbgirl?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: ustcck
+    password: Ck4438707%
+  jpa:
+    show-sql: true
+
+server:
+  #port: 8081
+  servlet:
+      context-path: /sell
+
+#logging:
+#  pattern:
+#    console: "%d - %msg%n" #控制台输出的内容。%d是指日期，%msg是日志信息，%n是换行
+#  #path: D:/log/sell
+#  file: D:/log/sell/sell.log   #日志输出路径和文件
+#  #level: debug #日志输出级别
+#  level:
+#    com.ustcck.LoggerTest: debug
+
+
