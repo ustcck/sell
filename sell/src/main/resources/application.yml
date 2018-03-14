@@ -3,9 +3,9 @@ spring:
     #active: prod
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://115.159.161.91:3306/dbgirl?useUnicode=true&characterEncoding=utf8&useSSL=false
-    username: ustcck
-    password: Ck4438707%
+    url: jdbc:mysql://127.0.0.1:3306/sell?useUnicode=true&characterEncoding=utf8&useSSL=false #115.159.161.91
+    username: root #ustcck
+    password: root #Ck4438707%
   jpa:
     show-sql: true
 
