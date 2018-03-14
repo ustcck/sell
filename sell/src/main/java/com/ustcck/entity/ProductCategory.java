@@ -1,4 +1,4 @@
-package com.ustcck.dataobject;
+package com.ustcck.entity;
 
 import lombok.Data;
 import org.hibernate.annotations.DynamicUpdate;

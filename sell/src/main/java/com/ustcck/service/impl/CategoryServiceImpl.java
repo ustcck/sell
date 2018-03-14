@@ -1,6 +1,6 @@
 package com.ustcck.service.impl;
 
-import com.ustcck.dataobject.ProductCategory;
+import com.ustcck.entity.ProductCategory;
 import com.ustcck.repository.ProductCategoryRepository;
 import com.ustcck.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;

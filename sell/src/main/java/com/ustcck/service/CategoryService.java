@@ -1,6 +1,6 @@
 package com.ustcck.service;
 
-import com.ustcck.dataobject.ProductCategory;
+import com.ustcck.entity.ProductCategory;
 
 import java.util.List;
 import java.util.Optional;

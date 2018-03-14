@@ -1,10 +1,9 @@
 package com.ustcck.service.impl;
 
-import com.ustcck.dataobject.ProductCategory;
+import com.ustcck.entity.ProductCategory;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.junit.runner.Runner;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -12,8 +11,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by CaoKai on 2018/3/13 21:02.

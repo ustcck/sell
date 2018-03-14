@@ -1,6 +1,6 @@
 package com.ustcck.repository;
 
-import com.ustcck.dataobject.ProductCategory;
+import com.ustcck.entity.ProductCategory;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
