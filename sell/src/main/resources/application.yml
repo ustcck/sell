@@ -3,24 +3,45 @@ spring:
     #active: prod
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/sell?useUnicode=true&characterEncoding=utf8&useSSL=false #115.159.161.91
-    username: root #ustcck
-    password: root #Ck4438707%
+    url: jdbc:mysql://115.159.161.91:3306/sell?useUnicode=true&characterEncoding=utf8&useSSL=false #115.159.161.91
+    username: ustcck
+    password: Ck4438707%
   jpa:
     show-sql: true
+  thymeleaf:
+    cache: false
+  jackson:
+    default-property-inclusion: non_null
+#  resources:
+#    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,classpath:/itstyle/
+#  mvc:
+#    static-path-pattern: /**
 
 server:
   #port: 8081
   servlet:
       context-path: /sell
 
-#logging:
+logging:
 #  pattern:
-#    console: "%d - %msg%n" #控制台输出的内容。%d是指日期，%msg是日志信息，%n是换行
-#  #path: D:/log/sell
-#  file: D:/log/sell/sell.log   #日志输出路径和文件
-#  #level: debug #日志输出级别
-#  level:
-#    com.ustcck.LoggerTest: debug
+    #console: "%d - %msg%n" #控制台输出的内容。%d是指日期，%msg是日志信息，%n是换行
+  #path: D:/log/sell
+  file: D:/log/sell/sell.log   #日志输出路径和文件
+  #level: debug #日志输出级别
+  level:
+    com.ustcck.LoggerTest: debug
+
+wechat:
+  mpAppId: wx75eab88f02a2e739
+  mpAppSecret: 4c64c995ac89aae39629c5f8e9244dfd
+
+
+#wechat:
+#  mpAppId: wx6b550b2970a8a11f
+#  mpAppSecret: 1fcdf43ae679cbf7f3d3a5aa306b293a
+#  mchId: 1483469312
+#  mchKey: 06C56A89949D617xxxxxxxxxxx
+#  keyPath: /var/weixin_cert/h5.p12
+#  notifyUrl: http://sell.natapp4.cc/sell/pay/notify
 
 
